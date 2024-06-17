@@ -1,18 +1,14 @@
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Guillermo!;" />
-</h1>
- <hr/>
- 
- 
- <div align="center"> 
-  <a href="https://linkedin.com/in/knowledgeseeker" target="_blank">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Guillermo!;" /></h1>
+  <div align="center"> 
+ <a href="https://linkedin.com/in/knowledgeseeker" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
   </a>
   <a href="https://tryhackme.com/p/ECyberTekTrooper" target="_blank">
      <img src="https://img.shields.io/badge/TryHackMe-212121?style=for-the-badge&logo=tryhackme" target="_blank" /> <!-- sqlite, safari, google-chrome are other good icon options -->
   </a>
 </div>
- <hr/>
+
 ## 🚀 Challenge Introduction
 This challenge involves analyzing a packet capture (pcap) of malicious activity, focusing on understanding and interpreting network traffic associated with potential malware infections. It tests us by answering the following questions on the analysis.
 
@@ -29,7 +25,7 @@ This challenge involves analyzing a packet capture (pcap) of malicious activity,
 - What type of account login data was stolen by the malware?
 
 ## 🕵️ Network traffic analysis
----
+
 Upon initial inspection of our pcap file, we observe that the first line begins with a broadcast asking "who has 192.168.1.27," followed by the router's response providing the associated MAC address. We must verify that this IP address and MAC address correspond to the potential victim data we are investigating.
 
 ![img1.png](https://github.com/ETEKTrooper/wireshark_analysis/blob/main/img1.png?raw=true)
@@ -53,7 +49,6 @@ Upon initial inspection of our pcap file, we observe that the first line begins 
 ### This discovery answers the following questions: 
 
 - **What is the victim’s IP address?** <red>192.168.1.27</red>
-
 
 ![img6.png](https://github.com/ETEKTrooper/wireshark_analysis/blob/main/img6.png?raw=true)
 
