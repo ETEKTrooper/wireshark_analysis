@@ -1,4 +1,8 @@
 # 🚀 Challenge Introduction
+Hi there! :wave:
+
+```markdown
+This is how it can be done
 
 This challenge involves analyzing a packet capture (pcap) of malicious activity, focusing on understanding and interpreting network traffic associated with potential malware infections. It tests us by answering the following questions on the analysis.
 
