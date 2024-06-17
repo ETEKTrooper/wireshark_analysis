@@ -26,7 +26,7 @@ Upon initial inspection of our pcap file, we observe that the first line begins 
 ![img1.png](https://github.com/ETEKTrooper/wireshark_analysis/blob/main/img1.png?raw=true)
 
 ➡️ A few packets down, we immediately observe a GET request for a PNG file.
-<br/>
+
 ![img2.png](https://github.com/ETEKTrooper/wireshark_analysis/blob/main/img2.png?raw=true)
 
 ➡️ Upon examining the file, it's evident that the data is encoded.
