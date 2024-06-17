@@ -73,7 +73,7 @@ Upon initial inspection of our pcap file, we observe that the first line begins 
 ![img11.png](https://github.com/ETEKTrooper/wireshark_analysis/blob/main/img11.png?raw=true)
 
 - **What type of CPU is used by the victim’s host?** Intel® Core™ i5-13600K CPU @ 5.10GHz
-- 
+  
 ![img12.png](https://github.com/ETEKTrooper/wireshark_analysis/blob/main/img12.png?raw=true)
 
 - **How much RAM does the victim’s host have?** 32GB
