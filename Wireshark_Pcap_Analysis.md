@@ -38,7 +38,8 @@ Upon initial inspection of our pcap file, we observe that the first line begins 
 
 ### This discovery answers the following questions: 
 
-- **What is the victim’s IP address?** 192.168.1.27
+- **What is the victim’s IP address?** <font color="red">192.168.1.27</font>
+
 
 ![img6.png](https://github.com/ETEKTrooper/wireshark_analysis/blob/main/img6.png?raw=true)
 
