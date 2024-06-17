@@ -10,7 +10,7 @@
      <img src="https://img.shields.io/badge/TryHackMe-212121?style=for-the-badge&logo=tryhackme" target="_blank" /> <!-- sqlite, safari, google-chrome are other good icon options -->
   </a>
 </div>
-
+ <hr/>
 ## 🚀 Challenge Introduction
 This challenge involves analyzing a packet capture (pcap) of malicious activity, focusing on understanding and interpreting network traffic associated with potential malware infections. It tests us by answering the following questions on the analysis.
 
