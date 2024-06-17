@@ -58,6 +58,4 @@ Our final question pertains to the type of account login data that the malware h
 
 This real-world example demonstrates the importance of analyzing packet captures (pcap) to understand and interpret network traffic associated with potential malware infections.
 
-![image](https://github.com/ETEKTrooper/wireshark_analysis/assets/144556198/cbf16526-248d-4cf8-848f-b321cc112383)
 
-# wireshark_analysis
