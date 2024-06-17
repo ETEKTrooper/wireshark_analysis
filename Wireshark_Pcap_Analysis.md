@@ -12,7 +12,6 @@
 </div>
 
 ## 🚀 Challenge Introduction
----
 This challenge involves analyzing a packet capture (pcap) of malicious activity, focusing on understanding and interpreting network traffic associated with potential malware infections. It tests us by answering the following questions on the analysis.
 
 ## 👋 Questions to answer
@@ -28,7 +27,7 @@ This challenge involves analyzing a packet capture (pcap) of malicious activity,
 - What type of account login data was stolen by the malware?
 
 ## 🕵️ Network traffic analysis
-
+---
 Upon initial inspection of our pcap file, we observe that the first line begins with a broadcast asking "who has 192.168.1.27," followed by the router's response providing the associated MAC address. We must verify that this IP address and MAC address correspond to the potential victim data we are investigating.
 
 ![img1.png](https://github.com/ETEKTrooper/wireshark_analysis/blob/main/img1.png?raw=true)
