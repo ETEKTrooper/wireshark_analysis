@@ -18,7 +18,7 @@ This challenge involves analyzing a packet capture (pcap) of malicious activity,
 
 Upon initial inspection of our pcap file, we observe that the first line begins with a broadcast asking "who has 192.168.1.27," followed by the router's response providing the associated MAC address. We must verify that this IP address and MAC address correspond to the potential victim data we are investigating.
 ![img1.png](https://github.com/ETEKTrooper/wireshark_analysis/blob/main/img1.png?raw=true)
-- A few packets down, we immediately observe a GET request for a PNG file.
+## ➡️ A few packets down, we immediately observe a GET request for a PNG file.
 - Upon examining the file, it's evident that the data is encoded.
 - When we research a bit further into the flowchart of this malware from the image provided below, we can see the infection process of a variant of Agent Tesla malware, detailing HTTP traffic for encoded payload delivery.
 - From this information, we can derive that the source IP address 192.168.1.27 requested this PNG file, confirming it as our infected host. We can document the information provided, noting that the victim's IP address is 192.168.1.27, and the MAC address can be copied from this request.
