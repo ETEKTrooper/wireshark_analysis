@@ -12,7 +12,7 @@
 </div>
 
 ## 🚀 Challenge Introduction
-
+---
 This challenge involves analyzing a packet capture (pcap) of malicious activity, focusing on understanding and interpreting network traffic associated with potential malware infections. It tests us by answering the following questions on the analysis.
 
 ## 👋 Questions to answer
